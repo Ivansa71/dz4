@@ -233,7 +233,7 @@ footer {
 
     .text-wrapper {
         /* 📍 Максимальная ширина для блока с текстом */
-        max-width: 100%;
+        max-width: 560px;
     }
 
     .about-section {
@@ -254,7 +254,7 @@ footer {
 @media screen and (max-width: 576px) {
     .main-section {
         /* 📍 Внутренние отступы сверху и снизу */
-        padding: 30px 0 40px;
+        padding: 30px 0 60px;
     }
 
     .main-section .wrapper {
@@ -270,7 +270,7 @@ footer {
     .about-section .wrapper,
     .info-wrapper {
         /* 📍 Отступ между изображением и блоком с текстом */
-        gap: 16px;
+        gap: 50px;
 
     }
 }
